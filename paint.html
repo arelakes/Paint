@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<title>PAINT</title>
+<script src="script.js"></script>
+<link rel="stylesheet" type="text/css" href="paint.css">
+</head>
+
+
+<body class='body'>
+<section class='content'>
+	<div class='card card1'>
+		<button class='button' id="b1"><img class='card-img' src="line1.png"></button>
+		<button class='button' id="b2"><img class='card-img' src="kvadrat.png"></button>
+		<button class='button' id="b3"><img class='card-img' src="circle.png"></button>
+		<br>
+		<button class='button' id="b4"><img class='card-img' src="line.png"></button>
+		<button class='button' id="b5"><img class='card-img' src="treug.png"></button>
+		<button class='button' id = "b6" ><img class='card-img' src="oval.png"></button>
+		<h3>Фигуры</h3>
+	
+
+	</div>
+	<div class = 'card card2'>
+		
+		<button class='button' id="b7"><img class='card-img' src="zalivka.png"></button>
+		<button class='button' id="b8"> <img class='card-img' src="sterka.png"></button>
+		<button class='button' id= "b9"><img class='card-img' src="udalenie.png"></button>
+		<h3>Инстументы</h3>
+	</div>
+	<div class = 'card'>
+		<!--<input type="button" value=" " id='b10' style='width:42px;height:42px;background-color:#111111'>
+		<h4>Цвет </h4> !-->
+		<label for="colorpick">Выбор цвета:</label>
+        <input type="color" value="#000000" id="colorpick" style='width:150px;height:44px;'>
+		
+		<form name="f1">
+	<br>	
+	<label for="colorpick">Толщина:</label>
+        <input type="range" id="size" min="0" max="10">
+		</form>
+		
+		<h3>Рисование</h3>
+	
+	</div>
+
+</section>
+
+<canvas class="canvas" id="canvas_example" width=1000 height=600 style="border:#000000 solid 1px;">
+</canvas>
+
+</body>
+</html>

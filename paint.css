@@ -1,0 +1,59 @@
+ body, h3, h4{
+	margin: 0;
+	font-size: 100%;
+	font-weight: normal;
+ }
+ 
+ h3, h4 {
+	font-weight: bold; 
+	margin: 10px auto;
+ }
+ 
+.body {
+	background: radial-gradient(circle farthest-corner at 100px 50px, #969696, #969696);
+	font-family: 'Arial', sans-serif;	
+}
+
+.content {
+	width: 800px;
+	margin: 0 auto;
+	background:  linear-gradient(to bottom, #ffffff, #696969) #F5F5F5 repeat-x;
+}
+
+.card {
+	color: rgb(0,0,0);	
+	text-align: center;
+	display: inline-block;
+	
+}
+.card1{
+	border-right: 2px inset #f0f6ff;
+	margin: 20px 0px 20px 0px;
+	padding: 0px 20px;
+}
+.card2{
+	border-right: 2px inset #f0f6ff;
+	margin: 20px 0px 20px 0px;
+	padding: 70px 20px 0px 20px;
+}
+.button {
+	background:linear-gradient(to bottom, #A9A9A9, #FFFFFF) #F5F5F5 repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #B3B3B3;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+	margin: 10px auto;
+    padding: 4px 12px;
+}
+
+.canvas {
+	background-color: rgb(255, 255, 255);
+	margin-top: 10px;
+	padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 1000px;
+	height: 600px;
+}
